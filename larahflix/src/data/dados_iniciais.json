@@ -1,0 +1,185 @@
+{
+  "categorias": [
+    {
+      "titulo": "Ir para Canal",
+      "link": "https://www.youtube.com/channel/UCcYrdFJF7hmPXRNaWdrko4w",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Chris Brown",
+        "url": "https://www.youtube.com/channel/UCcYrdFJF7hmPXRNaWdrko4w"
+      },
+      "videos": [
+        {
+          "titulo": "Os melhores sucessos R&B",
+          "url": "https://www.youtube.com/watch?v=_8HtDn_NAjU"
+        },
+        {
+          "titulo": "Chris Brown - With You (Official Video)",
+          "url": "https://www.youtube.com/watch?v=nmjdaBaZe8Y"
+        },
+        {
+          "titulo": "Say Goodbye · Chris Brown",
+          "url": "https://www.youtube.com/watch?v=TxfBE1qX924"
+        },
+        {
+          "titulo": "Chris Brown - Don't Judge Me",
+          "url": "https://www.youtube.com/watch?v=z29nI8RQV0U"
+        },
+        {
+          "titulo": "Chris Brown - Run it Live MTV (Legendado)",
+          "url": "https://www.youtube.com/watch?v=sMK2aBk-vJ8"
+        },
+        {
+          "titulo": "Chris Brown - Wall to Wall Soundcheck Walmart",
+          "url": "https://www.youtube.com/watch?v=T8ROY8gPZXU"
+        },
+        {
+          "titulo": "August Alsina - I Luv This Sh#t (Remix) (Live)ft. Trey Songz, Chris Brown_MrRamy",
+          "url": "https://www.youtube.com/watch?v=WQmt2SihWbI"
+        },
+        {
+          "titulo": "Chris Brown singing Say It With Me and Wall To Wall (FAME tour 2011)",
+          "url": "https://www.youtube.com/watch?v=AtfdZJwaPsA"
+        }
+      ]
+    },
+    {
+      "titulo": "Ir para Canal",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "August Alsina",
+        "url": "https://www.youtube.com/watch?v=nxvm4P0jFKY"
+      },
+      "videos": [
+        {
+          "titulo": "August Alsina - No Love ft. Nicki Minaj (Official Video)",
+          "url": "https://www.youtube.com/watch?v=nxvm4P0jFKY"
+        },
+        {
+          "titulo": "Mix - August Alsina - No Love ft. Nicki Minaj (Official Video)",
+          "url": "https://www.youtube.com/watch?v=tzCbCuAzgNw&list=RDnxvm4P0jFKY&index=14"
+        },
+        {
+          "titulo": "August Alsina - NOLA (Official Video)",
+          "url": "https://www.youtube.com/watch?v=7bWukkf2hGY"
+        },
+        {
+          "titulo": "August Alsina - Benediction ft. Rick Ross (Official Music Video)",
+          "url": "https://www.youtube.com/watch?v=IWPrGxCMcUc"
+        },
+        {
+          "titulo": "August Alsina - Get Ya Money ft. Fabolous (Official Video)",
+          "url": "https://www.youtube.com/watch?v=tBmS73Eh70c"
+        }
+      ]
+    },
+    {
+      "titulo": "Ir para Canal",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "BTS",
+        "url": "https://www.youtube.com/watch?v=9IHwqdz8Xhw"
+      },
+      "videos": [
+        {
+          "titulo": "BTS (방탄소년단) 'Stay Gold' Official MV",
+          "url": "https://www.youtube.com/watch?v=9IHwqdz8Xhw"
+        },
+        {
+          "titulo": "Mix - BTS (방탄소년단) 'Stay Gold' Official MV",
+          "url": "https://www.youtube.com/watch?v=ioNng23DkIM&list=RD9IHwqdz8Xhw&index=2"
+        },
+        {
+          "titulo": "GOT7 NOT BY THE MOON M/V",
+          "url": "https://www.youtube.com/watch?v=ladClnnJhqg&list=RD9IHwqdz8Xhw&index=3"
+        },
+        {
+          "titulo": "EXO 엑소 'Obsession' MV",
+          "url": "https://www.youtube.com/watch?v=uxmP4b2a0uY"
+        }
+      ]
+    },
+    {
+      "titulo": "Ir para Canal",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Melhores games",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Dicas de Séries",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Elliot fala sobre Deus (Mr.Robot)",
+        "url": "https://www.youtube.com/watch?v=NmlZIrwWtG0"
+      },
+      "videos": [
+        {
+          "titulo": "Elliot fala sobre Deus (Mr.Robot)",
+          "url": "https://www.youtube.com/watch?v=NmlZIrwWtG0"
+        },
+        {
+          "titulo": "Silicon Valley Temporada 1 | Trailer",
+          "url": "https://www.youtube.com/watch?v=lqgM8ZdAqKo"
+        },
+        {
+          "titulo": "CSI: Cyber - Nova Série - Trailer",
+          "url": "https://www.youtube.com/watch?v=RDXgKOKUXCc"
+        },
+        {
+          "titulo": "Scorpion",
+          "url": "https://www.youtube.com/watch?v=Kc5hbWsjYYI"
+        },
+        {
+          "titulo": "Big Bang A Teoria ",
+          "url": "https://www.youtube.com/watch?v=9RiIR6frHVs&list=PLwqpIngXMjevwgL1pHLcweH8BS6laUWF-"
+        }
+      ]
+    }
+  ]
+}
