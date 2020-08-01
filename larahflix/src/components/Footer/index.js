@@ -10,7 +10,7 @@ function Footer() {
         <img className="Logo" src={Logo} alt="Laraflix" />
       </a>
       <p>
-        Orgulhosamente criado com S2 e muito café | Eduardo Developer
+        Suavão, criado com S2 e muito café | Eduardo Developer
         {' '}
         <a href="http://localhost:3000/">
         </a>
