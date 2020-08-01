@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
+import JogoFlappi from './pages/flappy/jogo';
 
 const Pagina404 = () => (<div>404 Página não encontrada</div>)
 
@@ -14,6 +15,7 @@ ReactDOM.render(
       <Route path="/" component={Home} exact/>
       <Route path="/cadastro/video" component={CadastroVideo}/>
       <Route path="/cadastro/categoria" component={CadastroCategoria}/>
+      <Route path="/plappy/jogo" component={JogoFlappi}/>
       <Route component={Pagina404}/>
     </Switch>
   </BrowserRouter>,
