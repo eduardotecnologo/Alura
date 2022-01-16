@@ -1,0 +1,3 @@
+/Users/edudeveloper/Documents/Git/Alura/Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/edudeveloper/Documents/Git/Alura/Test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/edudeveloper/Documents/Git/Alura/Test/cmake-build-debug/CMakeFiles/Test.dir
