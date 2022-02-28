@@ -1,0 +1,11 @@
+#pragma once
+#include "Pessoa.h"
+
+Pessoa::Pessoa(Cpf cpf, std::string nome):cpf(cpf), nome(nome){}
+
+void Titular::verificaTamanhoNome(){
+	if(nome.size() < 5){
+		std::cout << "Ops! Nome muito curto." << std::endl;
+		exit(1);
+	 }
+}

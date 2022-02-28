@@ -1,0 +1,8 @@
+#pragma once
+#include "Conta.h"
+
+class ContaPoupanca:public Conta{
+	public:
+		ContaPoupanca(std::string numerol Titular titular);
+		void sacar(float valorAsacar)override;
+}

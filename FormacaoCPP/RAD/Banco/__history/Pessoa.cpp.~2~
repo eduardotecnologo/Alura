@@ -1,0 +1,10 @@
+#pragma once
+#include "Pessoa.h"
+
+class Pessoa{
+	private:
+		Cpf cpf;
+		std::string nome;
+	public:
+        Pessoa();
+}

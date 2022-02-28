@@ -1,0 +1,5 @@
+#include "ContaPoupanca.h"
+
+void ContaPoupanca::sacar(float valorASacar){
+    std::cout << "Chamando método sacar da conta poupança: " << std::endl;
+}

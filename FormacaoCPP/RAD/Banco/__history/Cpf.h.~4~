@@ -1,0 +1,10 @@
+#pragma once
+
+class Cpf{
+	private:
+        std::string numero;
+	public:
+        std::string getNumero();
+}
+
+

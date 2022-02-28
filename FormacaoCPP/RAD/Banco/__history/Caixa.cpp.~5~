@@ -1,0 +1,5 @@
+#pragma once
+#include "Caixa.h"
+
+Caixa::Caixa(Cpf cpf, std::string nome, float salario){
+}

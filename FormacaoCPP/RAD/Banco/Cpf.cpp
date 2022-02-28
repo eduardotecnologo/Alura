@@ -1,0 +1,11 @@
+#pragma hdrstop
+#include "Cpf.h"
+#pragma package(smart_init)
+
+Cpf::Cpf(std::string numero):numero(numero){
+ // Validação de CPF
+}
+
+std::string Cpf::getNumero(){
+    return numero;
+}
