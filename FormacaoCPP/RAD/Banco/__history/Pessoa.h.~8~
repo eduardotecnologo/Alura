@@ -1,0 +1,14 @@
+#pragma once
+#include "Cpf.h"
+#include <string>
+
+class Pessoa{
+	private:
+		Cpf cpf;
+		std::string nome;
+	public:
+		Pessoa(Cpf cpf, std::string nome);
+        std::string getNome();
+    private:
+		void verificaTamanhoNome();
+};

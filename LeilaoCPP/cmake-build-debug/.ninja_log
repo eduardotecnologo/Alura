@@ -1,0 +1,10 @@
+# ninja log v5
+1	193	1642272297000000000	build.ninja	20e4b496ff817fca
+0	876	1642272298000000000	CMakeFiles/LeilaoCPP.dir/src/Avaliador.cpp.o	52aa5f398983ff32
+3	1007	1642272367000000000	CMakeFiles/LeilaoCPP.dir/tests/main.cpp.o	c8190ce33b6e3900
+9	922	1642272505000000000	CMakeFiles/LeilaoCPP.dir/src/Avaliador.cpp.o	52aa5f398983ff32
+6	868	1642272551000000000	CMakeFiles/LeilaoCPP.dir/src/Avaliador.cpp.o	52aa5f398983ff32
+5	1391	1642272551000000000	CMakeFiles/LeilaoCPP.dir/tests/main.cpp.o	c8190ce33b6e3900
+7	897	1642273117000000000	CMakeFiles/LeilaoCPP.dir/src/Avaliador.cpp.o	52aa5f398983ff32
+5	1154	1642273117000000000	CMakeFiles/LeilaoCPP.dir/tests/main.cpp.o	c8190ce33b6e3900
+7	2158	1642291455000000000	CMakeFiles/LeilaoCPP.dir/tests/main.cpp.o	c8190ce33b6e3900

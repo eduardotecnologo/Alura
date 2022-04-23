@@ -1,0 +1,6 @@
+#pragma once
+"include "Gerente.h"
+
+Gerente::Gerente(){
+
+}

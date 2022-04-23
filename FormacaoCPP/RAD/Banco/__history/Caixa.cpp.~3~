@@ -1,0 +1,8 @@
+#pragma once
+#include "Funcionario.h"
+
+class Caixa:public Funcionario{
+	public:
+		Caixa();
+        float bonificacao() const;
+}

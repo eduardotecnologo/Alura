@@ -1,0 +1,8 @@
+#pragma once
+#include "Conta.h"
+
+class ContaCorrente final:public COnta{
+	public:
+		ContaCorrente(std::string numero, Titular titular);
+        float taxaDeSaque() const override;
+}

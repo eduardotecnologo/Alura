@@ -1,0 +1,8 @@
+#pragma once
+
+class Cpf{
+	public:
+        std::string getNumero();
+}
+
+
