@@ -1,6 +1,8 @@
 package models
 
-import "cadastro/db"
+import (
+	"cadastro/db"
+)
 
 type Product struct {
 	Id          int
@@ -12,7 +14,7 @@ type Product struct {
 
 func SearchAllProduct() []Product {
 	db := db.ConnectDB()
-	selectAllPrducts, err := db.Query("SELECT * FROM products")
+	selectAllPrducts, err := db.Query("SELECT * FROM products order by id asc")
 	if err != nil {
 		panic(err.Error())
 	}
@@ -62,4 +64,46 @@ func DeleteProduct(id string) {
 
 	deleteProduct.Exec(id)
 	defer db.Close()
+}
+
+func EditProduct(id string) Product {
+	db := db.ConnectDB()
+	selectProduct, err := db.Query("SELECT * FROM products WHERE id=$1", id)
+	if err != nil {
+		panic(err.Error())
+	}
+
+	productUpdate := Product{}
+
+	for selectProduct.Next() {
+		var id, quantity int
+		var name, description string
+		var price float64
+
+		err = selectProduct.Scan(&id, &name, &description, &price, &quantity)
+		if err != nil {
+			panic(err.Error())
+		}
+
+		productUpdate.Id = id
+		productUpdate.Name = name
+		productUpdate.Description = description
+		productUpdate.Price = price
+		productUpdate.Quantity = quantity
+	}
+	defer db.Close()
+	return productUpdate
+}
+
+func UpdateProduct(id int, name string, description string, price float64, quantity int) {
+
+	db := db.ConnectDB()
+	updateProduct, err := db.Prepare("UPDATE products SET name=$1, description=$2, price=$3, quantity=$4 WHERE id=$5")
+	if err != nil {
+		panic(err.Error())
+	}
+
+	updateProduct.Exec(name, description, price, quantity, id)
+	defer db.Close()
+
 }
