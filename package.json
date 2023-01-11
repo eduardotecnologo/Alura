@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "knex": "^0.21.3",
+    "knex": "^2.4.0",
     "react-router-dom": "^5.2.0",
     "sqlite3": "^5.0.0"
   }
